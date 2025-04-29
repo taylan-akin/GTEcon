@@ -80,7 +80,7 @@ econ.run()
 print(f"LCOH: {econ.lcoe:.2f} €/MWh, NPV: {econ.npv:.2f} €")
 ```
 
-For full examples, see [demo.py](demo.py).
+For full examples, see [run_GTEcon.py](run_GTEcon.py).
 
 ## 🎓 Documentation
 
