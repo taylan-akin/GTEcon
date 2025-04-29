@@ -10,7 +10,9 @@
   <img src="docs/logo/Logo-push-it-final_horizontaal-1024x446.png" alt="PUSH-IT Logo" width="400" />
 </p>
 
-This work was developed within the EU-funded PUSH-IT project ([https://www.push-it-thermalstorage.eu/](https://www.push-it-thermalstorage.eu/)) in collaboration with Alexandros Daniilidis ([A.Daniilidis@tudelft.nl](mailto\:A.Daniilidis@tudelft.nl)).
+This work was developed by **Dr. Taylan AKIN** (takin@pau.edu.tr, t.akin@tudelft.nl) within the EU-funded **PUSH-IT** project ([https://www.push-it-thermalstorage.eu/](https://www.push-it-thermalstorage.eu/)) in collaboration with **Dr. Alexandros DANIILIDIS** ([A.Daniilidis@tudelft.nl](mailto\:A.Daniilidis@tudelft.nl)).
+
+GTEcon is a Python library that transforms pandas DataFrames of well-operation time-series into a full techno-economic assessment tool for high-temperature geothermal energy storage. It supports Aquifer (ATES), Borehole (BTES) and Mine (MTES) Thermal Energy Storage systems by automating calculations of pumping and heat-production power, cash flows, Net Present Value (NPV), Levelized Cost of Heat (LCOH) and payback periods. Inputs can be loaded directly from structured Excel workbooks or defined programmatically, and built-in Monte Carlo and sensitivity analyses enable robust uncertainty quantification. Whether you’re exploring project feasibility interactively or integrating into batch simulations, GTEcon provides a reproducible, flexible framework for evaluating the economic viability of geothermal storage projects
 
 ## 🚀 Features
 
@@ -78,7 +80,7 @@ econ.run()
 print(f"LCOH: {econ.lcoe:.2f} €/MWh, NPV: {econ.npv:.2f} €")
 ```
 
-For full examples, see [usage\_example.py](usage_example.py).
+For full examples, see [demo.py](demo.py).
 
 ## 🎓 Documentation
 
